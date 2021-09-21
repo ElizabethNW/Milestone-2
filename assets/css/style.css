@@ -64,6 +64,23 @@ body {
   padding-left: 0.5rem;
 }
 
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+   
+  .text-CSS {
+      font-size: 55px;
+      color: #ffffff!important;
+      padding-top: 240px;
+      padding-left: 110px;
+  }
+  
 /* ---------- index.html : Buttons -----------*/
 
 }
