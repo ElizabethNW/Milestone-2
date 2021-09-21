@@ -1,45 +1,199 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Travel Nigeria
 
-Welcome USER_NAME,
+This is a tourist website for Nigeria. It has got basic information on the region, map, currency, weather and a contact-us page.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## USER EXPERIENCE (UX)
+-   ###    User Stories
 
-## Gitpod Reminders
+    -   ####        First Time Visitor Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+        1.    -  As a First Time Visitor, I get information on the Country
+        2.    -  As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3.    -  As a First Time Visitor, I want to know if there are different places to visit.
+        4.    -  As a First Time Visitor, I also want to connect to get more details on social media links.
 
-`python3 -m http.server`
+    -   ####    Returning Visitor Goals
 
-A blue button should appear to click: *Make Public*,
+        1.    -  As a Returning Visitor, I want to find see new destination/cities.
+        2.    -  As a Returning Visitor, I want to be able to make contact for enquiries.
+        3.    -  As a Returning Visitor, I want to find social media links.
 
-Another blue button should appear to click: *Open Browser*.
+    -   ####    Frequent User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1.    -  As a Frequent User, I want to be able to send enquires.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## DESIGN
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-   ###    Colour Scheme
 
-## Updates Since The Instructional Video
+    -    The three main colours used are Green and white which are colours of the national flag.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   ###    Typography
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    -   Source Sans Pro is the main font used throughout the website.
+        Sans Serif is used as the fallback font in case for any reason, the font isn't being imported 
+        into the site correctly.
+    
+-   ###    Imagery
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    -   Imagery is bright and vivid with pictures to captivate users.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-   ###    Wireframes
+    -    [Balsamiq:](https://balsamiq.com/), a pen and sheets of paper was used to create wireframes.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-   ###    Features
+    -   Responsive on all device sizes
+        Interactive elements
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## TECHNOLOGIES USED
 
---------
+###    1. Languages 
 
-Happy coding!
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+-   [Javascript](https://www.javascript.com/)
+
+###    2. Frameworks, Libraries & Programs 
+
+-   ####        [Bootstrap 4:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+       Bootstrap was used to assist with the responsiveness and styling of the website.
+
+-   ####        [Hover.css:]()
+     Hover.css was used on the Social Media icons in the footer to add the float transition while being 
+        hovered over.
+
+-   ####        [Google Fonts:](https://fonts.google.com/)
+    Google fonts were used to import the 'Oxygen' font into the style.css file which is used on all pages.
+
+-   ####        [Font Awesome:](https://fontawesome.com/)
+    Font Awesome was used on all pages throughout the website to add icons for aesthetic design and UX purposes.
+
+-   ####        [jQuery:](https://jquery.com/)
+     jQuery came with Bootstrap to make the navbar responsive, also for the smooth scroll function in JavaScript.
+        
+-   ####        [Git](https://git-scm.com/)
+     Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+        
+-   ####        [GitHub:](https://github.com/)
+     GitHub is used to store the project's code after being pushed from Git.
+       
+-   ####        [Balsamiq:](https://balsamiq.com/)
+     Balsamiq was used for  wireframes during the design process.
+
+###    3. APIs
+
+-   ####        [Google Maps](https://developers.google.com/maps/documentation)
+    Google Maps was used for the Navigation Page
+
+-   ####        [Email Js](http://emailjs.com/)
+    This was used for the form on the Contact page.
+
+-   ####        [Open Exchange Rates](https://openexchangerates.org/)
+    This was used for the currency section on the home page.
+
+ -   ####        [Weatherwidget](https://weatherwidget.io/)
+     This was used to highlight weather updates for key cities.
+
+## CODE VALIDITY
+
+1.   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+2.   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+3.   [Jshint](https://jshint.com/)
+4.   [Responsinator](https://www.responsinator.com/)   
+
+There were no errors detected with the code.
+
+Responsinator was used to check the responsiveness across various devices.
+
+## TESTING
+
+- ### Testing User Stories from User Experience (UX) Section
+
+    -   ####        First Time Visitor Goals
+
+        1. -  As a First Time Visitor, I want information on the Country. There is information on the home page with some statistics.
+        2.    -  As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. The navbar is very easy to use to navigate content.
+        3.    -  As a First Time Visitor, I want to know if there are different places to visit.
+        The map can be searched for various destination towns.
+        4.    -  As a First Time Visitor, I also want to connect to get more details on social media links.
+
+    -   ####    Returning Visitor Goals
+
+        1.    -  As a Returning Visitor, I want to find see new destination/cities.
+        This is done via the Maps on the navigation page.
+        2.    -  As a Returning Visitor, I want to be able to make contact for enquiries.
+        The Contact page makes this possible with email JS.
+        3.    -  As a Returning Visitor, I want to find social media links.
+        The social media links at the bottom of the page link to sites for more information on the country.
+
+    -   ####    Frequent User Goals
+
+        1.    -  As a Frequent User, I want to be able to send enquires.
+        The contact page makes this possible with email js.
+        2.    -  As a Frequent User, I want to be able to find currency exchange value.
+        There is a currency section with updates for exchange with major currencies of the world.
+
+
+## DEPLOYMENT
+
+-   ####    GitHub Pages
+
+    The project was deployed to GitHub Pages using the following steps...
+
+      -   Log in to GitHub and locate the GitHub Repository
+      -   At the top of the Repository (not top of page), locate the "Settings" Button 
+                on the menu.
+      -   Scroll down the Settings page until you locate the "GitHub Pages" Section.
+      -   Under "Source", click the dropdown called "None" and select "Master Branch".
+                The page will automatically refresh.
+      -   Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+        
+-   ####        Forking the GitHub Repository
+
+       By forking the GitHub Repository we make a copy of the original repository on our GitHub
+            account to view and/or make changes without affecting the original repository by using
+            the following steps:
+       -   Log in to GitHub and locate the GitHub Repository
+       -   At the top of the Repository (not top of page) just above the "Settings" Button on the menu, 
+                locate the "Fork" Button.
+       -   You should now have a copy of the original repository in your GitHub account.
+        
+-   ####        Making a Local Clone
+       -  Log in to GitHub and locate the GitHub Repository
+       -  Under the repository name, click "Clone or download".
+       -  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
+## CREDITS
+
+-   ####    CODE
+
+       [Bootstrap 4:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+        Bootstrap Library used throughout the project mainly to make site responsive using the
+        Bootstrap Grid System.
+        
+       [MDN Web Docs](https://developer.mozilla.org/)
+       For Pattern Validation code. Code was modified to better fit my needs to ensure correct 
+        validation.
+
+-   ####    CONTENT
+
+       All written content was by the developer.
+
+-   ####    COLORS/MEDIA
+
+    [Pexels.com](https://www.pexels.com/)
+
+    [Pixabay.com](https://pixabay.com/)
+
+    [Unsplash.com](https://unsplash.com/)
+
+-   ####    ACKNOWLEDGEMENTS
+
+     - [YOUTUBE](https://www.youtube.com/)- multiple random videos and tutorials to consolidate on lecture notes.
+     - Code Institute Lectures
+ 
