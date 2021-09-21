@@ -43,7 +43,8 @@ function initMap() {
         content: document.getElementById("info-content"),
     });
 
-    autocomplete = new google.maps.places.Autocomplete(/** @type {!HTMLInputElement} */ (document.getElementById("autocomplete")), {
+    autocomplete = new google.maps.places.Autocomplete(/** @type {!HTMLInputElement} */ (document.getElementById("autocomplete")), 
+    {
         types: ["(cities)"],
         componentRestrictions: countryRestrict,
     });
