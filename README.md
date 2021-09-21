@@ -1,6 +1,6 @@
 # Travel Nigeria
 
-This is a tourist website for Nigeria. It has got basic information on the region, map, currency, weather and a contact-us page. The site can be accessed here https://elizabethnw.github.io/Milestone-2/
+This is a tourist website for Nigeria. It has got basic information on the region, map, currency, climate and a contact-us page. The site can be accessed here https://elizabethnw.github.io/Milestone-2/
 
 ## USER EXPERIENCE (UX)
 -   ###    User Stories
@@ -27,11 +27,11 @@ This is a tourist website for Nigeria. It has got basic information on the regio
 
 -   ###    Colour Scheme
 
-    -    The three main colours used are Green and white which are colours of the national flag.
+    -    The three main colours used are White, Green and a light lilac in the background.
 
 -   ###    Typography
 
-    -   Source Sans Pro is the main font used throughout the website.
+    -   'Oswald' is the main font used throughout the website.
         Sans Serif is used as the fallback font in case for any reason, the font isn't being imported 
         into the site correctly.
     
@@ -68,7 +68,7 @@ This is a tourist website for Nigeria. It has got basic information on the regio
         hovered over.
 
 -   ####        [Google Fonts:](https://fonts.google.com/)
-    Google fonts were used to import the 'Oxygen' font into the style.css file which is used on all pages.
+    Google fonts were used to import the 'Oswald' font into the style.css file which is used on all pages.
 
 -   ####        [Font Awesome:](https://fontawesome.com/)
     Font Awesome was used on all pages throughout the website to add icons for aesthetic design and UX purposes.
@@ -85,6 +85,9 @@ This is a tourist website for Nigeria. It has got basic information on the regio
 -   ####        [Balsamiq:](https://balsamiq.com/)
      Balsamiq was used for  wireframes during the design process.
 
+-   ####        [Replit:](https://replit.com/)
+    Replit was very useful for initial build.
+
 ###    3. APIs
 
 -   ####        [Google Maps](https://developers.google.com/maps/documentation)
@@ -92,12 +95,6 @@ This is a tourist website for Nigeria. It has got basic information on the regio
 
 -   ####        [Email Js](http://emailjs.com/)
     This was used for the form on the Contact page.
-
--   ####        [Open Exchange Rates](https://openexchangerates.org/)
-    This was used for the currency section on the home page.
-
- -   ####        [Weatherwidget](https://weatherwidget.io/)
-     This was used to highlight weather updates for key cities.
 
 ## CODE VALIDITY
 
@@ -138,6 +135,8 @@ Responsinator was used to check the responsiveness across various devices.
         2.    -  As a Frequent User, I want to be able to find currency exchange value.
         There is a currency section with updates for exchange with major currencies of the world.
 
+- ### Left to Implement
+    -   Visitors reviews
 
 ## DEPLOYMENT
 
