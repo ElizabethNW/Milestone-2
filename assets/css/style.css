@@ -80,7 +80,7 @@ body {
       padding-top: 240px;
       padding-left: 110px;
   }
-
+  
 /* ---------- index.html : Buttons -----------*/
 
 
@@ -303,7 +303,7 @@ footer {
   font-size: 35px;
 }
 .list-inline-item a {
-  color: #003609;
+  color: #3ceb70;
 }
 
 @media screen and (max-width: 992.02px) {
@@ -311,10 +311,7 @@ footer {
   .info-text {
     padding: 1rem 6rem 2rem 6rem;
   }
-  /* -------- index.html : widget - currency ------- */
-  .jumbotron {
-    padding: 3.633625rem 0 4rem 0;
-  }
+  
   /* ------- search.html : result ------ */
   .listing-box {
     padding-left: 2rem;
@@ -348,12 +345,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 767.98px) {
-  /* ------- index.html : widget - currency -------- */
-  .jumbotron {
-    padding: 1rem 0 1rem 0;
-  }
-}
 
 @media screen and (max-width: 576.02px) {
   /* ----- index.html : text info----- */
