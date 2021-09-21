@@ -1,6 +1,6 @@
 # Travel Nigeria
 
-This is a tourist website for Nigeria. It has got basic information on the region, map, currency, weather and a contact-us page.
+This is a tourist website for Nigeria. It has got basic information on the region, map, currency, weather and a contact-us page. The site can be accessed here https://elizabethnw.github.io/Milestone-2/
 
 ## USER EXPERIENCE (UX)
 -   ###    User Stories
