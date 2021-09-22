@@ -1,6 +1,7 @@
 # Travel Nigeria
 
-This is a tourist website for Nigeria. It has got basic information on the region, map, currency, climate and a contact-us page. The site can be accessed here https://elizabethnw.github.io/Milestone-2/
+This is a tourist website for Nigeria. It has got basic information on the region, map, currency, climate and a contact-us page. The site can be accessed here https://elizabethnw.github.io/Milestone-2-Travel-Nigeria/
+
 
 ## USER EXPERIENCE (UX)
 -   ###    User Stories
@@ -179,9 +180,13 @@ Responsinator was used to check the responsiveness across various devices.
        For Pattern Validation code. Code was modified to better fit my needs to ensure correct 
         validation.
 
+       [w3Schools Tutorials](https://www.w3schools.com/)
+
+       [Code Institute Lectures](https://learn.codeinstitute.net/)
+
 -   ####    CONTENT
 
-       All written content was by the developer.
+       All written content was researched and compiled by the developer.
 
 -   ####    COLORS/MEDIA
 
@@ -195,4 +200,6 @@ Responsinator was used to check the responsiveness across various devices.
 
      - [YOUTUBE](https://www.youtube.com/)- multiple random videos and tutorials to consolidate on lecture notes.
      - Code Institute Lectures
+     - [Georgia Tech](https://studentlife.gatech.edu/flag/nigeria)
+
  
